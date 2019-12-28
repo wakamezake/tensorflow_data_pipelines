@@ -8,6 +8,7 @@ import tensorflow as tf
 
 
 def main():
+    print('tf.executing_eagerly() = ', tf.executing_eagerly())
     print(tf.__version__)
     dataset = tf.data.Dataset.from_tensor_slices([8, 3, 0, 8, 2, 1])
     print(dataset)

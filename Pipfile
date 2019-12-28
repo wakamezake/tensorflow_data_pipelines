@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 tensorflow = "==2.0.0"
+albumentations = "==0.4.3"
 
 [requires]
 python_version = "3.6"
